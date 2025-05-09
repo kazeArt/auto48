@@ -1,0 +1,1227 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slide > div{
+    margin:0 10px;
+}
+  
+  
+@media (min-width: 1024px) and (max-width: 1100px) {
+    .carposition {
+      margin-left: 33rem !important;
+      margin-top: 3rem !important; /* or any value you need */
+     
+    }
+    .ComponentOfForm{
+      margin-top: 12rem !important;
+    }
+    .Vectors{
+      transform: scale(1.1);
+      transform-origin: center;
+      margin-left: 2rem !important;
+      z-index: 0 !important;
+     
+    }
+    
+  }
+
+  @media (min-width: 1101px) and (max-width: 1200px) {
+    .carposition {
+      margin-left: 33rem !important;
+      margin-top: 3rem !important; /* or any value you need */
+     
+    }
+    .ComponentOfForm{
+      margin-top: 12rem !important;
+    }
+    .Vectors{
+      transform: scale(1.1);
+      transform-origin: center;
+      margin-left: 2rem !important;
+      
+     
+    }
+    .Vecposition {
+      margin-left: 63rem  !important;
+   }
+   .secondLayout{
+    transform: scale(0.8) !important;
+    transform-origin: center;
+    margin-right: 30rem !important;
+   }
+  }  
+  
+   
+ @media(max-width: 768px) {
+    .Vecposition{
+        margin-left: 19rem !important;
+        margin-top: 3rem !important;
+    }
+ }
+ @media (min-width: 400px) and (max-width: 450px) {
+    .Vecposition{
+      margin-left: 20rem !important; /* or any value you need */
+     
+    }
+    .Vectors{
+      transform: scale(1.1);
+      transform-origin: center;
+      margin-left: 1rem !important;
+     
+     
+    }
+  }
+
+ @media(min-width: 1100px ){
+    .bigCarPosition{
+        width: 580px !important;
+        margin-left: 34rem !important;
+        height: 400px;
+    }
+    .secondLayout{
+      transform: scale(0.8) !important;
+      transform-origin: center;
+      margin-right: 30rem !important;
+      margin-top: -31rem !important;
+     }
+     .fortyeight{
+       transform: translateY(6rem) !important;
+     }
+    
+ }
+ @media (min-width: 900px) and (max-width: 1023px) {
+    .secondLayout {
+       margin-left: 14rem !important;
+      
+
+    }
+    .carposition {
+      margin-left: 37rem !important;
+      margin-top: -2rem !important; 
+     
+    }
+    .ComponentOfForm{
+      margin-top: -32rem !important;
+      margin-left: -7rem !important;
+    }
+    .Vectors{
+      transform: scale(1.1);
+      transform-origin: center;
+      margin-left: 2rem !important;
+      z-index: 0 !important;
+     
+    }
+    .formm{
+      margin-left: 36rem !important;
+      transform: scale(0.9) translateY(-2rem);
+      transform-origin: center;
+    }
+   .socialmedia{
+    margin-left: 9rem !important;
+   }
+    .Vecposition{
+        margin-top: -2rem !important;
+        margin-left: 50rem !important;
+    }
+   
+    .form{
+        margin-left: 37rem !important;
+    }
+   
+    .firstparagraphes{
+      margin-left: 5.5rem;
+      
+    }
+    .bigCarPosition{
+      margin-left: 26.5rem !important;
+      width: 500px !important;
+      margin-top: -17rem !important;
+    }
+  }  
+ @media (min-width: 1110px) and (max-width: 1280px) {
+    .secondLayout {
+       margin-left: 17rem !important;
+    }
+    .carposition {
+      margin-left: 37rem !important;
+      margin-top: 2rem !important; 
+     
+    }
+    .ComponentOfForm{
+      margin-top: 12rem !important;
+    }
+  }  
+  /*1280 ND 1400*/
+
+  @media (min-width: 768px) and (max-width: 899px) {
+    .carposition {
+      margin-left: 29rem !important;
+      margin-top: -5rem !important; 
+     
+    }
+    .formm{
+      transform: scale(0.9) !important;
+      transform-origin: center !important;
+    }
+    .secondLayout{
+      transform: scale(0.9) !important;
+      transform-origin: center !important;
+      margin-left: 8rem !important;
+    }
+    .Vecposition{
+    transform: translateX(-2rem) !important;
+    }
+    .ComponentOfForm{
+      transform: translateY(-2rem) translateX(-1.8rem) scale(0.9) !important;
+    }
+  }  
+  /*the responsive for the screens between 430 and 768*/
+  @media(min-width:431px) and (max-width:767px){
+    .Mobile{
+        min-width: 450px;
+        background-image: linear-gradient( to top, #151514, #640C0C);
+        clip-path: polygon(21% 0, 90% 0, 100% 14%, 100% 100%, 80% 100%, 15% 100%, 0 100%, 0 0);
+    }
+    
+    
+    .Paragraphes{
+      margin-left: 5rem;
+    }
+    .Vecposition{
+     margin-bottom: 2rem !important;
+    }
+    
+  }
+  @media(min-width:500px) and (max-width:768px){
+    
+    .Vecposition{
+      margin-left:26rem !important ;
+    }
+    .socialmedia{
+      margin-left: 5rem !important;
+    }
+    .firstparagraphes{
+      margin-top: 6rem !important;
+      width: 450px !important;
+      margin-left: 2rem;
+      transform: scale(0.9);
+    }
+
+    
+   form{
+    margin-bottom: 5rem !important;
+   }
+   .textarea{
+    height:200px !important ;
+   }
+    
+  }
+  @media(min-width:640px) and (max-width:768px){
+  
+    
+    .socialmedia{
+      margin-left: 9rem !important;
+    }
+    .firstparagraphes{
+      width: 540px !important;
+    }
+    .fortyeight{
+      width: 800px !important;
+    }
+    form{
+      margin-bottom: 9rem !important;
+     }
+     .textarea{
+      height:250px !important ;
+     }
+  }
+  @media(min-width:720px) and (max-width:768px){
+    
+    div.parlerNous {
+      margin-left: 15rem !important;
+    }
+    .Vecposition{
+      margin-left: 36rem !important;
+    }
+    .socialmedia{
+      margin-left: 10rem;
+    }
+   
+  }
+  @media(min-width:768px) and (max-width:769px){
+  
+    .formm{
+      height: 430px !important;
+      margin-bottom: 4rem !important;
+    }
+    .textarea{
+      height: 100px !important;
+    }
+    .socialmedia{
+      margin-left: 3rem !important;
+    }
+    .Vecposition{
+      margin-left: 44rem !important;
+    }
+   
+  }
+  @media(min-width:800px) and (max-width:899px){
+     .firstparagraphes{
+      margin-left: 5rem !important;
+    }
+    .bigCarPosition{
+      margin-left: 26rem !important;
+    }
+    .socialmedia{
+      margin-left: 7rem !important;
+    }
+  }
+
+  @media(min-width:1180px) and (max-width:1279px){
+   .carposition{
+    width: 700px !important;
+   }
+   .socialmedia{
+    margin-left: -6rem !important;
+   }
+   .Vecposition{
+    margin-left: 69rem !important;
+   }
+  }
+/*1280 ND 1429*/
+@media(min-width:1280px) and (max-width:1429px){
+ 
+  .ComponentOfForm{
+    margin-top: 14rem !important;
+  }
+  .socialmediaicons{
+    transform: translateY(1rem) !important;
+  }
+ }
+  @media (min-width: 1430px) and (max-width: 1536px) {
+    .secondLayout {
+       margin-left: 21rem !important;
+    }
+    .formm{
+      margin-right:6rem !important;
+    }
+    .textarea{
+      height: 230px !important;
+    }
+    
+    .Vecposition{
+      margin-left: 84rem !important;
+    }
+    .GrayRightsReserved{
+      font-size: 30px !important;
+    }
+    .socialmedia{
+      margin-left: 3rem !important;
+    }
+    .bigCarPosition{
+      width: 740px !important;
+      height: 440px !important;
+      margin-left: 32rem !important;
+      margin-top: -30rem !important;
+    }
+    .scroller img{
+      width: 300px !important;
+      margin-top: 3rem !important;
+    }
+   
+    .socialmediaicons{
+      margin-left:37.5rem !important;
+      transform: translateY(1rem) !important;
+    }
+    .carposition {
+      margin-left: 59rem !important;
+      margin-top: 6rem !important;
+      transform: scale(1.2) !important;
+      transform-origin: center;
+     
+    }
+    .ComponentOfForm{
+      margin-top: 12rem !important;
+    }
+    .Vectors{
+      transform: scale(1.1);
+      transform-origin: center;
+      margin-left: 2rem !important;
+      z-index: 0 !important;
+     
+    }
+    
+  }  
+  @media(min-width:1537px) and (max-width:1660px){
+    .ComponentOfForm{
+      transform: translateY(6rem) !important;
+    }
+    .bigCarPosition{
+      width: 750px !important;
+      height: 440px !important;
+      margin-top: -36rem !important;
+      margin-left: 36rem !important;
+    }
+    .scroller img{
+      margin-top: 8rem !important;
+      width: 400px !important;
+    }
+    .socialmedia{
+      margin-left: 8rem !important;
+    }
+    .carposition{
+      margin-left:64rem !important ;
+    }
+    .Vecposition{
+      margin-left: 92rem !important;
+    }
+    .secondLayout{
+      margin-left: 20rem !important;
+    }
+    .textarea{
+      height: 240px !important;
+    }
+    .GrayRightsReserved{
+       font-size: 37px !important;
+    }
+    .formm{
+      margin-right: 6rem !important;
+    }
+  }
+  /*for the screens grather than 16660 px*/
+  @media(min-width:1660px) and (max-width:1860px){
+    .ComponentOfForm{
+      transform: translateY(9rem) !important;
+    }
+    .bigCarPosition{
+      width: 900px !important;
+      height: 500px !important;
+      margin-top: -39rem !important;
+      margin-left: 38rem !important;
+    }
+    .scroller img{
+      margin-top: 12rem !important;
+      width: 430px !important;
+    }
+    .socialmedia{
+      margin-left: 8rem !important;
+      
+    }
+    .socialmediaicons{
+        transform: translateY(1rem) !important;
+    }
+    .carposition{
+      margin-left:56rem !important ;
+      transform: scale(1.1) !important;
+      transform-origin: center !important;
+    }
+    .Vecposition{
+      margin-left: 98rem !important;
+    }
+    .secondLayout{
+      margin-left: 26rem !important;
+    }
+    .textarea{
+      height: 240px !important;
+    }
+    .GrayRightsReserved{
+       font-size: 37px !important;
+    }
+    .formm{
+      margin-right: 8rem !important;
+    }
+  }
+
+  /*large screen desktops, grather than 1860*/
+  @media(min-width:1860px) and (max-width:1999px){
+    .ComponentOfForm{
+      transform: translateY(6rem) !important;
+    }
+    .bigCarPosition{
+      width: 750px !important;
+      height: 500px !important;
+      margin-top: -38rem !important;
+      margin-left: 49rem !important;
+    }
+    .scroller img{
+      margin-top: 14rem !important;
+      width: 460px !important;
+    }
+    .socialmedia{
+      margin-left: 16rem !important;
+    }
+    .carposition{
+      margin-left:76rem !important ;
+      transform: scale(1.1) !important;
+      transform-origin: center !important;
+    }
+    .Vecposition{
+      margin-left: 111rem !important;
+    }
+    .secondLayout{
+      margin-left: 26rem !important;
+    }
+   .textarea{
+      height: 180px !important;
+      width: 600px !important;
+      font-size: 25px !important;
+    }
+    .input,.button{
+      width: 600px !important;
+      font-size: 25px !important;
+      
+    }
+    .button{
+      padding: 19px !important;
+    }
+    .GrayRightsReserved{
+       font-size: 37px !important;
+    }
+    .formm{
+      margin-right: 8rem !important;
+      width: 650px !important;
+    }
+    .loremRep{
+          font-size: 35px !important;
+    }
+    .RepP{
+          font-size: 43px !important;
+          letter-spacing: 3%;
+          line-height: 65px;
+    }
+    .loremTittle{
+            font-size:32px !important ;
+    }
+    .loremDesc{
+       font-size:26px !important ;
+    }
+    .parDiv{
+      width: 820px !important;
+      margin-top: 1.5rem !important;
+    }
+    .firstparagraphes{
+      margin-left: 15rem !important;
+      margin-top: 8rem !important;
+    }
+    .parlerNous{
+      margin-left: 18.5rem  !important;
+      margin-bottom: 1.5rem ;
+   }
+   .parlerNous p{
+    font-size: 27px !important;
+   }
+   .parlerNous img{
+    width: 46px;
+    height: 23px;
+   }
+    
+  }
+  /*betwween 2000 nd 2050*/
+  @media(min-width:2000px) and (max-width:2100px){
+    .ComponentOfForm{
+      transform: translateY(3rem) scale(1.1) !important;
+      margin-left: -15rem !important;
+    }
+    .bigCarPosition{
+      width: 100% !important;
+      transform: scale(1.5);
+      transform-origin: center;
+      margin-top: -35rem !important;
+      margin-left: 50.8rem !important;
+      height: 380px !important;
+    }
+    .scroller img{
+      margin-top: 17rem !important;
+      
+      width: 520px !important;
+   
+    }
+    .scroller{
+      gap: 3rem !important;
+    }
+    .socialmedia{
+      margin-left: 16rem !important;
+      margin-top: 12rem !important;
+    }
+    .carposition{
+      margin-left:127.5rem !important ;
+      margin-top: 10rem !important;
+      width: 100%;
+      transform: scale(2);
+      transform-origin: center;
+    }
+    .Vecposition{
+      margin-left: 111rem !important;
+      width: 140px !important;
+      height: 100px !important;
+    }
+    .secondLayout{
+      margin-left: 26rem !important;
+      margin-top: -45rem !important;
+    }
+    .textarea{
+      height: 250px !important;
+      width: 700px !important;
+      font-size: 35px !important;
+      padding: 2rem !important;
+      margin-left: 1rem !important;
+    }
+    .input,.button{
+      width: 700px !important;
+      font-size: 35px !important;
+      padding: 2rem !important;
+      margin-left: 1rem !important;
+    }
+    .button{
+      padding: 25px !important;
+    }
+    .GrayRightsReserved{
+       font-size: 37px !important;
+    }
+    .formm{
+      margin-right: 2rem !important;
+      margin-top: -27rem !important;
+      width: 785px !important;
+      height: 900px !important;
+    }
+    .discoverP{
+      font-size: 37px !important;
+    }
+    .joinP{
+       font-size: 55px !important;
+    }
+    .fortyeightD{
+        width: 80% !important;
+        height: 900px !important;
+        margin-left: 12rem !important;
+        margin-top: 12rem !important;
+      
+    }
+    .InfosTittles{
+      font-size: 36px !important;
+      
+
+    }
+    .infosContent{
+      font-size: 29px !important;
+    }
+    .loremRep{
+          font-size: 36px !important;
+    }
+    .RepP{
+          font-size: 46px !important;
+          letter-spacing: 3%;
+          line-height: 65px;
+    }
+    .loremTittle{
+            font-size:34px !important ;
+            
+    }
+    .loremDesc{
+       font-size:28px !important ;
+       
+    }
+    .parDiv{
+      width: 800px !important;
+      height: 13rem !important;
+      margin-top: 1.5rem !important;
+    }
+    .parDiv p{
+      margin-left: 3rem !important;
+    }
+    .parDiv img{
+       margin: 2rem !important;
+       
+        width: 100% !important;
+        transform: scale(1.3);
+        transform-origin: center;
+       
+    }
+    .firstparagraphes{
+      margin-left: 8rem !important;
+      margin-top: 8rem !important;
+    }
+    .parlerNous{
+      margin-left: 20.5rem  !important;
+      margin-bottom: 1.5rem ;
+      margin-top: 3rem !important;
+   }
+   .parlerNous p{
+    font-size: 27px !important;
+   }
+   .parlerNous img{
+    width: 46px;
+    height: 23px;
+   }
+    
+  }
+  /*between 2100 nd 2300*/
+  @media(min-width:2101px) and (max-width:2200px){
+    .ComponentOfForm{
+      margin-left: -14.5rem !important;
+      margin-top: 10rem !important;
+      transform: scale(1.1);
+      transform-origin: center;
+    }
+    .bigCarPosition{
+      width: 100% !important;
+      transform: scale(1.5);
+      transform-origin: center;
+      margin-top: -35rem !important;
+      margin-left: 50.8rem !important;
+      height: 400px !important;
+    }
+    .scroller img{
+      margin-top: 17rem !important;
+      
+      width: 520px !important;
+   
+    }
+    .scroller{
+      gap: 3rem !important;
+    }
+    .socialmedia{
+      margin-left: 26rem !important;
+      margin-top: 12rem !important;
+    }
+    .carposition{
+      margin-left:138.5rem !important ;
+      margin-top: 8rem !important;
+      width: 100%;
+      transform: scale(2);
+      transform-origin: center;
+    }
+    .Vecposition{
+      margin-left: 121rem !important;
+      width: 140px !important;
+      height: 100px !important;
+    }
+    .formm{
+      width: 100%;
+      transform: scale(1.2);
+      transform-origin: center;
+      margin-right: 8rem !important;
+      margin-top: -20rem !important;
+    }
+    .fortyeightD{
+      width: 100%;
+      transform: scale(1.1);
+      transform-origin: center;
+      margin-left: 12rem !important;
+      
+    }
+    .secondLayout{
+      margin-left: 30rem !important;
+      margin-top: -22rem !important;
+    }
+    .firstparagraphes{
+      margin-left: 12rem !important;
+    }
+  }
+  /*2201 and 2350*/
+  @media(min-width:2201px) and (max-width:2360px){
+    .ComponentOfForm{
+      margin-left: -16rem !important;
+      margin-top: 10rem !important;
+      transform: scale(1.1);
+      transform-origin: center;
+    }
+    .bigCarPosition{
+      width: 100% !important;
+      transform: scale(1.5);
+      transform-origin: center;
+      margin-top: -35rem !important;
+      margin-left: 50.8rem !important;
+      height: 400px !important;
+    }
+    .scroller img{
+      margin-top: 17rem !important;
+      
+      width: 520px !important;
+   
+    }
+    .scroller{
+      gap: 3rem !important;
+    }
+    .socialmedia{
+      margin-left: 26rem !important;
+      margin-top: 12rem !important;
+    }
+    .carposition{
+      margin-left:146rem !important ;
+      margin-top: 8rem !important;
+      width: 100%;
+      transform: scale(2);
+      transform-origin: center;
+    }
+    .Vecposition{
+      margin-left: 126rem !important;
+      width: 140px !important;
+      height: 100px !important;
+    }
+    .formm{
+      width: 100%;
+      transform: scale(1.3);
+      transform-origin: center;
+      margin-right: 8rem !important;
+      margin-top: -20rem !important;
+    }
+    .fortyeightD{
+      width: 100%;
+      transform: scale(1.1);
+      transform-origin: center;
+      margin-left: 12rem !important;
+      
+    }
+    .secondLayout{
+      margin-left: 30rem !important;
+      margin-top: -22rem !important;
+    }
+    .firstparagraphes{
+      margin-left: 12rem !important;
+    }
+  }
+  /*between 2361 and 2410*/
+  @media(min-width:2361px) and (max-width:2410px){
+    .ComponentOfForm{
+      margin-left: -18rem !important;
+      margin-top: 12rem !important;
+      transform: scale(1.1);
+      transform-origin: center;
+    }
+    .bigCarPosition{
+      width: 100% !important;
+      transform: scale(1.7);
+      transform-origin: center;
+      margin-top: -44rem !important;
+      margin-left: 65.8rem !important;
+      height: 400px !important;
+    }
+    .parDiv{
+      width: 100%;
+      transform: scale(1.3);
+      margin-bottom: 5rem !important;
+      transform-origin: center;
+      margin-left: 6rem !important;
+    }
+    .firstparagraphes{
+      margin-top: 16rem !important;
+    }
+    .RepP{
+      font-size: 43px !important;
+      line-height: 58px !important;
+    }
+    .loremRep{
+      font-size: 34px !important;
+    }
+    .scroller img{
+      margin-top: 17rem !important;
+      
+      width: 520px !important;
+   
+    }
+    .scroller{
+      gap: 3rem !important;
+    }
+    .socialmedia{
+      margin-left: 26rem !important;
+      margin-top: 12rem !important;
+    }
+    .carposition{
+      margin-left:167rem !important ;
+      margin-top: 7rem !important;
+      width: 100%;
+      transform: scale(2);
+      transform-origin: center;
+    }
+    .Vecposition{
+      margin-left: 136rem !important;
+      width: 140px !important;
+      height: 100px !important;
+    }
+    .formm{
+      width: 100%;
+      transform: scale(1.3);
+      transform-origin: center;
+      margin-right: 13rem !important;
+      
+      margin-top: -18.5rem !important;
+    }
+    .fortyeightD{
+      height: 100%;
+      transform: scale(1.4) translateY(14rem) !important;
+      transform-origin: center;
+      margin-left: 28rem !important;
+     
+      
+    }
+    .secondLayout{
+      margin-left: 30rem !important;
+      margin-top: -22rem !important;
+    }
+    .firstparagraphes{
+      margin-left: 12rem !important;
+    }
+  }
+/*2411 and 2511*/
+@media(min-width:2411px) and (max-width:2531px){
+  .ComponentOfForm{
+    margin-left: -14.5rem !important;
+    margin-top: 10rem !important;
+    transform: scale(1.15);
+    transform-origin: center;
+  }
+  .bigCarPosition{
+    width: 100% !important;
+    transform: scale(1.7);
+    transform-origin: center;
+    margin-top: -44rem !important;
+    margin-left: 65.8rem !important;
+    height: 400px !important;
+  }
+  .parDiv{
+    width: 100%;
+    transform: scale(1.3);
+    margin-bottom: 5rem !important;
+    transform-origin: center;
+    margin-left: 6rem !important;
+  }
+  .firstparagraphes{
+    margin-top: 16rem !important;
+  }
+  .RepP{
+    font-size: 43px !important;
+    line-height: 58px !important;
+  }
+  .loremRep{
+    font-size: 34px !important;
+  }
+  .scroller img{
+    margin-top: 17rem !important;
+    
+    width: 520px !important;
+ 
+  }
+  .scroller{
+    gap: 3rem !important;
+  }
+  .socialmedia{
+    margin-left: 26rem !important;
+    margin-top: 12rem !important;
+  }
+  .carposition{
+    margin-left:165rem !important ;
+    margin-top: 7rem !important;
+    width: 100%;
+    transform: scale(2);
+    transform-origin: center;
+  }
+  .Vecposition{
+    margin-left: 138rem !important;
+    width: 140px !important;
+    height: 100px !important;
+  }
+  .formm{
+    width: 100%;
+    transform: scale(1.3);
+    transform-origin: center;
+    margin-right: 13rem !important;
+    
+    margin-top: -18.5rem !important;
+  }
+  .fortyeightD{
+    height: 100%;
+    transform: scale(1.4) translateY(14rem) !important;
+    transform-origin: center;
+    margin-left: 28rem !important;
+   
+    
+  }
+  .secondLayout{
+    margin-left: 30rem !important;
+    margin-top: -22rem !important;
+  }
+  .firstparagraphes{
+    margin-left: 12rem !important;
+  }
+}
+/*2532 and 2660*/
+@media(min-width:2532px) and (max-width:2660px){
+  .ComponentOfForm{
+    margin-left: -18.5rem !important;
+    margin-top: 10rem !important;
+    transform: scale(1.1);
+    transform-origin: center;
+  }
+  .bigCarPosition{
+    width: 100% !important;
+    transform: scale(1.7);
+    transform-origin: center;
+    margin-top: -44rem !important;
+    margin-left: 65.8rem !important;
+    height: 400px !important;
+  }
+  .parDiv{
+    width: 100%;
+    transform: scale(1.3);
+    margin-bottom: 5rem !important;
+    transform-origin: center;
+    margin-left: 6rem !important;
+  }
+  .firstparagraphes{
+    margin-top: 16rem !important;
+  }
+  .RepP{
+    font-size: 43px !important;
+    line-height: 58px !important;
+  }
+  .loremRep{
+    font-size: 34px !important;
+  }
+  .scroller img{
+    margin-top: 17rem !important;
+    
+    width: 520px !important;
+ 
+  }
+  .scroller{
+    gap: 3rem !important;
+  }
+  .socialmedia{
+    margin-left: 26rem !important;
+    margin-top: 12rem !important;
+  }
+  .carposition{
+    margin-left:169rem !important ;
+    margin-top: 7rem !important;
+    width: 100%;
+    transform: scale(2);
+    transform-origin: center;
+  }
+  .Vecposition{
+    margin-left: 138rem !important;
+    width: 140px !important;
+    height: 100px !important;
+  }
+  .formm{
+    width: 100%;
+    transform: scale(1.35);
+    transform-origin: center;
+    margin-right: 18rem !important;
+    
+    margin-top: -18rem !important;
+  }
+  .textarea{
+    height: 220px !important;
+  }
+  .input,textarea,.button{
+    font-size:20px !important;
+  }
+  .fortyeightD{
+    height: 100%;
+    transform: scale(1.4) translateY(14rem) !important;
+    transform-origin: center;
+    margin-left: 28rem !important;
+   
+    
+  }
+  .secondLayout{
+    margin-left: 30rem !important;
+    margin-top: -22rem !important;
+  }
+  .firstparagraphes{
+    margin-left: 12rem !important;
+  }
+}
+
+/*2661 & 2861*/
+@media(min-width:2661px) and (max-width:2861px){
+  .ComponentOfForm{
+    margin-left: -18.5rem !important;
+    margin-top: 10rem !important;
+    transform: scale(1.1);
+    transform-origin: center;
+  }
+  .bigCarPosition{
+    width: 100% !important;
+    transform: scale(1.7);
+    transform-origin: center;
+    margin-top: -44rem !important;
+    margin-left: 77.8rem !important;
+    height: 400px !important;
+  }
+  .parDiv{
+    width: 100%;
+    transform: scale(1.3);
+    margin-bottom: 5rem !important;
+    transform-origin: center;
+    margin-left: 14rem !important;
+  }
+  .firstparagraphes{
+    margin-top: 16rem !important;
+  }
+  .RepP{
+    font-size: 43px !important;
+    line-height: 58px !important;
+    margin-left: 7rem !important;
+  }
+  .loremRep{
+    font-size: 34px !important;
+    margin-left: 7rem !important;
+  }
+  .scroller img{
+    margin-top: 17rem !important;
+    
+    width: 520px !important;
+ 
+  }
+  .scroller{
+    gap: 3rem !important;
+  }
+  .socialmedia{
+    margin-left: 26rem !important;
+    margin-top: 12rem !important;
+  }
+  .carposition{
+    margin-left:194rem !important ;
+    margin-top: 9rem !important;
+    width: 100%;
+    transform: scale(2);
+    transform-origin: center;
+  }
+  .Vecposition{
+    margin-left: 138rem !important;
+    width: 140px !important;
+    height: 100px !important;
+  }
+  .formm{
+    width: 100%;
+    transform: scale(1.35);
+    transform-origin: center;
+    margin-right: 18rem !important;
+    
+    margin-top: -18rem !important;
+  }
+  .textarea{
+    height: 220px !important;
+  }
+  .input,.textarea,.button{
+    font-size:20px !important;
+  }
+  .fortyeightD{
+    height: 100%;
+    transform: scale(1.4) translateY(14rem) !important;
+    transform-origin: center;
+    margin-left: 41rem !important;
+   
+    
+  }
+  .secondLayout{
+    margin-left: 42rem !important;
+    margin-top: -22rem !important;
+  }
+  .firstparagraphes{
+    margin-left: 12rem !important;
+  }
+}
+/*2862 and 3000*/
+@media(min-width:2862px) and (max-width:3000px){
+  .ComponentOfForm{
+    margin-left: -20rem !important;
+    margin-top: 10rem !important;
+    transform: scale(1.1);
+    transform-origin: center;
+  }
+  .bigCarPosition{
+    width: 100% !important;
+    transform: scale(1.9);
+    transform-origin: center;
+    margin-top: -46rem !important;
+    margin-left: 93.8rem !important;
+    height: 400px !important;
+  }
+  .Vectors{
+    transform: scale(3.1) translateY(8rem) translateX(6rem) !important;
+    transform-origin: center;
+    margin-left: 2rem !important;
+    z-index: 0 !important;
+   
+  }
+  .parDiv{
+    width: 100%;
+    transform: scale(1.5);
+    margin-bottom: 7rem !important;
+    transform-origin: center;
+    margin-left: 18rem !important;
+  }
+  .firstparagraphes{
+    margin-top: 16rem !important;
+  }
+  .RepP{
+    font-size: 43px !important;
+    margin-bottom: 3rem  !important;
+    line-height: 58px !important;
+    margin-left: 7rem !important;
+  }
+  .loremRep{
+    font-size: 34px !important;
+    margin-bottom: 3rem !important;
+    margin-left: 7rem !important;
+  }
+  .scroller img{
+    margin-top: 17rem !important;
+    
+    width: 520px !important;
+ 
+  }
+  .scroller{
+    gap: 3rem !important;
+  }
+  .socialmedia{
+    margin-left: 46rem !important;
+    margin-top: 12rem !important;
+  }
+  .carposition{
+    margin-left:206rem !important ;
+    margin-top: 7rem !important;
+    width: 100%;
+    transform: scale(2);
+    transform-origin: center;
+  }
+  .Vecposition{
+    margin-left: 166rem !important;
+    width: 140px !important;
+    height: 100px !important;
+  }
+  .formm{
+    width: 100%;
+    transform: scale(1.35);
+    transform-origin: center;
+    margin-right: 23rem !important;
+    
+    margin-top: -18rem !important;
+  }
+  .textarea{
+    height: 220px !important;
+  }
+  .input,.textarea,.button{
+    font-size:20px !important;
+  }
+  .fortyeightD{
+    height: 100%;
+    transform: scale(1.4) translateY(14rem) !important;
+    transform-origin: center;
+    margin-left: 41rem !important;
+   
+    
+  }
+  .secondLayout{
+    margin-left: 42rem !important;
+    margin-top: -22rem !important;
+  }
+  .firstparagraphes{
+    margin-left: 12rem !important;
+  }
+}
+

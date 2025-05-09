@@ -1,0 +1,275 @@
+@media (min-width:420px) and (max-width:600px){
+    .redfooter{
+        margin-top: 14rem;
+    }
+    .blackCardsBg{
+        transform: scaleY(3.2) scaleX(1) ;
+        margin-top: 9rem;
+
+    }
+}
+@media (min-width:601px) and (max-width:767px){
+    .redfooter{
+        margin-top: 14rem;
+    }
+    .blackCardsBg{
+        transform: scaleY(2.8) scaleX(0.6) ;
+        margin-top: 9.5rem;
+
+    }
+    .mobileVectors{
+      display: flex;
+      padding-left: 270px !important;
+      padding-right: 270px !important;
+      margin-top: 32rem;
+    }
+}
+@media(min-width:830px) and (max-width:960px){
+    .fstpic{
+      transform: translateX(-7rem) translateY(2rem) scale(1.03) !important;
+    }
+    .blackCardsBg{
+        transform:  scaleX(0.70);
+        margin-top: 9rem;
+        
+    }
+      
+}  
+@media(min-width:961px) and (max-width:1023px){
+    .fstpic{
+      transform: translateX(-11rem) translateY(2rem) scale(1.03) !important;
+    }
+    .redfooterP{
+        margin-top: 1rem !important;
+    }
+    .redfooterPReg{
+         font-size: 10px;
+    }
+    .redfooterPBold{
+        font-size: 65px;
+    }
+    .whiteCar{
+        transform: translateY(-8rem) translateX(6rem) scale(0.7);
+    }
+    .blackCardsBg{
+        transform:  scaleX(0.71);
+        
+    }
+      
+}  
+@media (min-width:1200px) and (max-width:1279px){
+    .redfooter{
+        margin-top: 14rem;
+    }
+    .blackCardsBg{
+        transform: scaleY(1.7) scaleX(0.8) ;
+        margin-top: 17rem;
+
+    }
+    .redfooterPReg{
+        font-size: 13px;
+   }
+   .redfooterPBold{
+       font-size: 75px;
+   }
+   .whiteCar{
+       transform: translateY(-8rem) translateX(2rem) scale(0.8);
+   }
+}
+@media(min-width:1730px) and (max-width:1900px){
+  .fstpic{
+    transform: translateX(-27rem) translateY(2rem) scale(0.8) !important;
+  }
+  .blackCardsBg{
+    transform: scaleX(1);
+  }
+  .redfooterPReg{
+    font-size: 18px;
+    margin-left: 4rem;
+}
+.redfooterPBold{
+   font-size: 100px;
+   margin-left: 4rem;
+}
+.whiteCar{
+   transform: translateY(-12rem) translateX(-6rem) scale(1.2);
+}
+.redfooter{
+    margin-top: 18rem;
+}
+    
+}
+@media(min-width:1901px) and (max-width:2000px){
+    .fstpic{
+      transform: translateX(-33rem) translateY(2rem) scale(0.8) !important;
+    }
+    .feedbcakcards{
+          padding-left: 182px;
+          padding-right: 182px;
+    }
+    .blackCardsBg{
+        transform: scaleX(1);
+      }
+      .redfooterPReg{
+        font-size: 18px;
+        margin-left: 4rem;
+    }
+    .redfooterPBold{
+       font-size: 100px;
+       margin-left: 4rem;
+    }
+    .whiteCar{
+       transform: translateY(-12rem) translateX(-6rem) scale(1.2);
+    }
+    .redfooter{
+        margin-top: 18rem;
+    }
+    .feedbackButtonsDesktop{
+        margin-left: -11.5rem;
+    }
+      
+  }
+ /*from 2000 TO 2300*/
+ @media(min-width:2001px) and (max-width:2300px){
+    .fstpic{
+      transform: translateX(-33rem) translateY(2rem) scale(0.8) !important;
+    }
+    .PassionP{
+        transform: translateX(76rem);
+    }
+    .feedbcakcards{
+          padding-left: 182px;
+          padding-right: 182px;
+    }
+    .blackCardsBg{
+        transform: scaleX(1.3);
+      }
+      .redfooterPReg{
+        font-size: 18px;
+        margin-left: 8rem;
+    }
+    .redfooterPBold{
+       font-size: 100px;
+       margin-left: 8rem;
+    }
+    .whiteCar{
+       transform: translateY(-12rem) translateX(-6rem) scale(1.2);
+    }
+    .redfooter{
+        margin-top: 18rem;
+    }
+    .feedbackButtonsDesktop{
+        margin-left: -11.5rem;
+    }
+      
+  }
+ /*2301 to 2671*/
+ @media(min-width:2301px) and (max-width:2671px){
+    .fstpic{
+      transform: translateX(-40rem) translateY(2rem) scale(0.8) !important;
+    }
+    .mecanicpic{
+        transform: translateY(4rem) scaleX(2);
+    }
+    .frstComp{
+        transform: scaleY(1.5);
+        margin-top: 8rem;
+        margin-bottom: 5rem;
+    }
+    .PassionP{
+        transform: translateX(90rem);
+    }
+    .feedbcakcards{
+          padding-left: 182px;
+          padding-right: 182px;
+    }
+    .blackCardsBg{
+        transform: scaleX(1.5);
+      }
+      .redfooterPReg{
+        font-size: 18px;
+        margin-left: 12rem;
+    }
+    .redfooterPBold{
+       font-size: 100px;
+       margin-left: 8rem;
+    }
+    .whiteCar{
+       transform: translateY(-12rem) translateX(-6rem) scale(1.2);
+    }
+    .redfooter{
+        margin-top: 18rem;
+    }
+    .feedbackButtonsDesktop{
+        margin-left: -11.5rem;
+    }
+      
+  }
+ 
+
+  /*2671 to 3000*/
+ @media(min-width:2672px) and (max-width:3000px){
+    .fstpic{
+      transform: translateX(-50rem) translateY(2rem) scale(0.8) !important;
+    }
+    .mecanicpic{
+        transform: translateY(4rem) scaleX(2);
+    }
+    .frstComp{
+        transform: scaleY(1.5);
+        margin-top: 8rem;
+        margin-bottom: 5rem;
+    }
+    .PassionP{
+        transform: translateX(90rem);
+    }
+    .feedbcakcards{
+          padding-left: 182px;
+          padding-right: 182px;
+    }
+    .blackCardsBg{
+        transform: scaleX(1.8) scaleY(2.3) translateY(2.5rem);
+    }
+    .BlackCards{
+           transform: scaleY(2.4);
+    }
+      .redfooterPReg{
+        font-size: 18px;
+        margin-left: 20rem;
+    }
+    .redfooterPBold{
+       font-size: 100px;
+       margin-left: 18rem;
+    }
+    .whiteCar{
+       transform: translateY(-12rem) translateX(-6rem) scale(1.2);
+    }
+    .redfooter{
+        margin-top: 35rem;
+    }
+    .feedbackButtonsDesktop{
+        margin-left: -11.5rem;
+    }
+      
+  }
+ /**/
+ @media(min-width:1300px) and (max-width:1499px){
+    .fstpic{
+      transform: translateX(-30rem) translateY(2rem) scaleX(1.6) scaleY(0.85) !important;
+    }
+   .PassionP{
+    transform: translateX(50rem);
+   }
+    
+   
+}
+ @media(min-width:1500px) and (max-width:1729px){
+    .fstpic{
+      transform: translateX(-39rem) translateY(2rem) scaleX(1.6) scaleY(0.85) !important;
+    }
+   .mecanicpic{
+    transform: translateX(-12rem) scaleX(1.5) scaleY(1.2) translateY(4rem);
+   }
+    
+   
+}
