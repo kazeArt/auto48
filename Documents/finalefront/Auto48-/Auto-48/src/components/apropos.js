@@ -655,20 +655,22 @@ export default function Apropos() {
                         </div>
                     </div>
                 </div>
-
                 <div
-                    className="formm relative bg-white py-8 px-6 w-96 mx-auto lg:absolute lg:-right-20 lg:top-[33.5rem] md:z-20 md:w-[362.41px] md:-mt-[29.5rem] md:ml-[31rem] md:h-[442px] lg:h-[476px] lg:w-[380px] xl:mr-4 xl:w-[450px] xl:h-[600px]"
-                    style={{ clipPath: "polygon(20% 0%, 96% 0, 100% 8%, 100% 100%, 80% 100%, 5% 100%, 0 96%, 0 0)" }}
-                >
-                    <p className="flex w-[268.34px] md:hidden ml-7 p-2 lg:hidden xl:hidden 2xl:hidden">
-                        <img src="./pics/redline.png" className="lg:hidden w-[30px] h-[8px]" alt="" />
-                        <p className="font-neo text-[16.38px] uppercase text-[#C81717] -ml-[12.5rem] lg:text-[20.38px] lg:ml-[3rem]">PARLEZ-NOUS</p>
-                    </p>
-                    <p className="parlerNous flex w-[333.34px] ml-7 lg:ml-52 p-2 md:ml-44 md:gap-2">
-                        <img src="./pics/fromlf.png" alt="" className="md:w-[33.15px] md:h-[13.15px] mr-7 md:-ml-44" />
-                        <p className="font-neo text-[16.38px] uppercase text-[#C81717] -ml-[12.5rem] lg:text-[20.38px] lg:-ml-[1rem] md:-mt-2 md:-ml-3">PARLEZ-NOUS</p>
-                        <img src="./pics/fromlr.png" alt="" className="md:w-[33.15px] md:h-[13.15px] md:ml-3" />
-                    </p>
+  className=" formm relative bg-white py-8 px-6 w-96 mx-auto lg:absolute lg:-right-20 lg:top-[33.5rem] md:z-20  md:w-[362.41px] md:-mt-[29.5rem]  md:ml-[31rem] md:h-[442px] lg:h-[476px] lg:w-[380px] xl:mr-4 xl:w-[450px] xl:h-[600px] "
+  style={{clipPath:"polygon(20% 0%, 96% 0, 100% 8%, 100% 100%, 80% 100%, 5% 100%, 0 96%, 0 0)"}}
+ >
+<p className="flex w-[268.34px] md:hidden ml-7 p-2 lg:hidden xl:hidden 2xl:hidden">
+                <img src="./pics/redline.png" className="lg:hidden w-[30px] h-[8px]" alt="" />
+                
+                <p className="font-neo text-[16.38px] uppercase text-[#C81717] -ml-[12.5rem] lg:text-[20.38px] lg:ml-[3rem] ">PARLEZ-NOUS</p>
+</p>
+            <p className="parlerNous flex w-[333.34px] ml-7 lg:ml-52 p-2 md:ml-44 md:gap-2 ">
+               
+                <img src="./pics/fromlf.png" alt="" className=" md:w-[33.15px] md:h-[13.15px] mr-7 md:-ml-44"/>
+                <p className="font-neo text-[16.38px] uppercase text-[#C81717] -ml-[12.5rem] lg:text-[20.38px] lg:-ml-[1rem] md:-mt-2 md:-ml-3">PARLEZ-NOUS</p>
+                <img src="./pics/fromlr.png" alt="" className=" md:w-[33.15px] md:h-[13.15px] md:ml-3"/>
+            </p>
+
 
                     {/* Form Section */}
                     <form className="relative z-10 space-y-4 text-sm font-turret w-[313.51px] ml-4 md:ml-1 rounded-s-[2rem] lg:ml-2 xl:w-[400px] xl:ml-1" onSubmit={handleSubmit}>

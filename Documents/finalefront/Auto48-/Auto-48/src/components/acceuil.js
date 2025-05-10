@@ -156,7 +156,7 @@ useEffect(() => {
 
   return (
     <div className='w-full overflow-x-clip'  >
-      <div className='text-center relative transform -translate-x-1/2 left-1/2 p-[13px_5px] md:p-[13px_10px] z-10 font-turret text-[#320606] 
+      <div className='text-center relative transform -translate-x-1/2 left-1/2 p-[13px_5px] md:p-[13px_10px] z-10 font-turretBold text-[#320606] 
       text-[13px] xs:text-[15px] sm:text-[18px] md:text-[20px] lg:text-[17px] xl:text-[19px] 2xl:text-[22px] 3xl:text-[24px] 4xl:text-[26px] 5xl:text-[28px] 6xl:text-[30px] 7xl:text-[33px]
       8xl:text-[36px] 9xl:text-[39px] 1xl:text-[42px] w-[80%] xs:w-[70%] sm:w-[60%]  lg:w-[58%] xl:w-[50%] 2xl:w-[50%] 3xl:w-[47%] 4xl:w-[45%] 
       top-[16px] md:top-[50px]  lg:top-[65px] xl:top-[70px] 2xl:top-[75px] 3xl:top-[90px] 6xl:top-[100px]  8xl:top-[120px] 1xl:top-[150px]
@@ -220,75 +220,57 @@ useEffect(() => {
           </div>
         </div>
       </div>
-       {/* ========== HORIZONTAL SCROLL SECTION ========== */}
-       <div className="overflow-x-hidden whitespace-nowrap bg-black py-[5px] sm:py-[10px] md:py-4 2xl:py-[24px] 3xl:py-[24px]
+      {/* ========== HORIZONTAL SCROLL SECTION ========== */}
+<div className="overflow-x-hidden whitespace-nowrap bg-black py-[5px] sm:py-[10px] md:py-4 2xl:py-[24px] 3xl:py-[24px]
   4xl:py-[26px] 5xl:py-[30px] 6xl:py-[35px] 7xl:py-[40px] 8xl:py-[45px] 9xl:py-[50px] mt-[13px] md:mt-10 2xl:mt-[50px] 
   3xl:mt-14 4xl:mt-15 5xl:mt-15.5 group">
   {partenairesLoading ? (
     <div className="text-white text-center py-4">Loading partners...</div>
   ) : (
     <div className="flex animate-loop-scroll w-max group-hover:[animation-play-state:paused]">
-      {/* First row */}
-      <div className="flex">
-        {partenaires.map((partenaire) => (
-          <a 
-            key={`first-${partenaire.id}`}
-            href={partenaire.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mx-[20px] sm:mx-[30px] md:mx-[50px] 3xl:mx-[70px] 4xl:mx-[90px] 5xl:mx-[120px]
-            6xl:mx-[130px] 7xl:mx-[140px] 8xl:mx-[150px] 9xl:mx-[180px] flex-shrink-0"
-          >
-            <div className="w-[60px] h-[40px] sm:w-[100px] sm:h-[55px] md:w-[120px] md:h-[70px] 
-             3xl:w-[140px] 3xl:h-[95px] 4xl:w-[160px] 4xl:h-[105px] 5xl:w-[180px] 5xl:h-[115px]
-             6xl:w-[200px] 6xl:h-[125px] 7xl:w-[220px] 7xl:h-[135px] 8xl:w-[240px] 8xl:h-[145px]
-             9xl:w-[270px] 9xl:h-[195px] bg-black p-2 rounded-lg flex items-center justify-center">
-              <img 
-                src={partenaire.file_path}
-                alt={partenaire.name}
-                className="w-full h-full object-contain"
-                loading="lazy"
-                onError={(e) => {
-                  e.target.src = 'https://auto48softcactus.wuaze.com/pics/default-partenaire.png';
-                  e.target.onerror = null; // Prevent infinite loop if default image fails
-                }}
-              />
+      {/* Double the items for seamless looping */}
+      {[...Array(2)].map((_, i) => (
+        <div key={`row-${i}`} className="flex">
+          {partenaires.map((partenaire) => (
+            <div 
+              key={`${i}-${partenaire.id}`}
+              className="mx-[20px] sm:mx-[30px] md:mx-[50px] 3xl:mx-[70px] 4xl:mx-[90px] 5xl:mx-[120px]
+                     6xl:mx-[130px] 7xl:mx-[140px] 8xl:mx-[150px] 9xl:mx-[180px] flex-shrink-0"
+            >
+              <a 
+                href={partenaire.link || '#'}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block bg-black p-2 rounded-lg w-[60px] h-[40px] sm:w-[100px] sm:h-[55px] 
+                       md:w-[120px] md:h-[70px] 3xl:w-[140px] 3xl:h-[95px] 4xl:w-[160px] 4xl:h-[105px] 
+                       5xl:w-[180px] 5xl:h-[115px] 6xl:w-[200px] 6xl:h-[125px] 7xl:w-[220px] 7xl:h-[135px] 
+                       8xl:w-[240px] 8xl:h-[145px] 9xl:w-[270px] 9xl:h-[195px]"
+              >
+                <img 
+                  src={partenaire.file_path}
+                  alt={partenaire.name}
+                  className="w-full h-full"
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'fill',
+                    display: 'block'
+                  }}
+                  loading="lazy"
+                  onError={(e) => {
+                    e.target.src = 'https://auto48softcactus.wuaze.com/pics/default-partenaire.png';
+                    e.target.onerror = null;
+                  }}
+                />
+              </a>
             </div>
-          </a>
-        ))}
-      </div>
-      {/* Second row (duplicate for seamless looping) */}
-      <div className="flex">
-        {partenaires.map((partenaire) => (
-          <a 
-            key={`second-${partenaire.id}`}
-            href={partenaire.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mx-[20px] sm:mx-[30px] md:mx-[50px] 3xl:mx-[70px] 4xl:mx-[90px] 5xl:mx-[120px]
-            6xl:mx-[130px] 7xl:mx-[140px] 8xl:mx-[150px] 1xl:mx-[180px] flex-shrink-0"
-          >
-            <div className="w-[60px] h-[40px] sm:w-[100px] sm:h-[55px] md:w-[120px] md:h-[70px]
-             3xl:w-[140px] 3xl:h-[95px] 4xl:w-[160px] 4xl:h-[105px] 5xl:w-[180px] 5xl:h-[115px]
-             6xl:w-[200px] 6xl:h-[125px] 7xl:w-[220px] 7xl:h-[135px] 8xl:w-[240px] 8xl:h-[145px]
-             1xl:w-[260px] 1xl:h-[185px] bg-black p-2 rounded-lg flex items-center justify-center">
-              <img 
-                src={partenaire.file_path}
-                alt={partenaire.name}
-                className="w-full h-full object-contain"
-                loading="lazy"
-                onError={(e) => {
-                  e.target.src = 'https://auto48softcactus.wuaze.com/pics/default-partenaire.png';
-                  e.target.onerror = null; // Prevent infinite loop if default image fails
-                }}
-              />
-            </div>
-          </a>
-        ))}
-      </div>
+          ))}
+        </div>
+      ))}
     </div>
   )}
 </div>
+      {/* ========== HORIZONTAL SCROLL SECTION ========== */}
       <div className="w-[170px] sm:w-[210px] mt-6 sm:mt-7 -left-7 mb-2 relative md:hidden z-100">
   <img src="/pics/carg.gif" alt="car icon" />
 </div>
@@ -416,7 +398,7 @@ useEffect(() => {
               5xl:w-[180px] 5xl:h-[50px] 6xl:w-[190px] 6xl:h-[60px] 7xl:w-[200px] 7xl:h-[65px] 8xl:w-[230px] 8xl:h-[70px] 9xl:w-[250px] 9xl:h-[80px]
               1xl:w-[270px] 1xl:h-[88px]" />
     </div>
-    <div className='font-turret absolute text-white 2xl:top-[90px] 3xl:top-[100px] 4xl:top-[110px] 5xl:top-[130px] 7xl:top-[150px] 8xl:top-[170px] sm:top-[50px] xl:top-[70px] top-[40px] xs:text-[17px] text-[16px] 
+    <div className='font-turretBold absolute text-white 2xl:top-[90px] 3xl:top-[100px] 4xl:top-[110px] 5xl:top-[130px] 7xl:top-[150px] 8xl:top-[170px] sm:top-[50px] xl:top-[70px] top-[40px] xs:text-[17px] text-[16px] 
             mg:text-[24px]  lg:text-[28px] 2xl:text-[34px] 3xl:text-[40px] 5xl:text-[46px] 6xl:text-[48px] 7xl:text-[51px] 8xl:text-[54px] 9xl:text-[58px] 1xl:text-[64px] sm:text-[22px]'>" L'EXCELLENCE À CHAQUE RÉPARATION "</div> 
   </div>
 
